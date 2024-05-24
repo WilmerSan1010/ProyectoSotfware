@@ -205,7 +205,3 @@ function cargarContenido(page) {
             console.error('Error fetching page:', error);
         });
 }
-
-
-
-
