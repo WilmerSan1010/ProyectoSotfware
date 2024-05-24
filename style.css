@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+    color: black;
+}
+
+.titulo {
+    text-align: center; 
+}
+
+.btn btn-success{
+    padding-top: 100PX;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #666666;
+    color: #eee3e3;
+    padding: 5px 0; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 50px; 
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lucida Console', Courier, monospace;
+    font-size: 1.2em; 
+    line-height: 50px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #336666;
+    height: 30px; 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px; 
+    display: block;
+    font-size: 0.9em; 
+}
+
+nav a:hover {
+    background-color: #99cc33;
+    border-radius: 5px;
+}
+
+main {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #669933;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 0.5em;
+    bottom: 0;
+    width: 100%;
+}
+
+.application-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.application-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#skills-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#add-skill {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-skill:hover {
+    background-color: #555;
+}
+
+.skills-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills-display span {
+    background-color: #99cc33;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.card-preview {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #361fe6;
+    text-align: center;
+}
+
+.card-preview img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card-preview h3 {
+    margin: 0;
+    color: #333333;
+    font-size: 1.5em;
+}
+
+.card-preview p {
+    margin: 5px 0;
+    color: #666666;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.card-preview a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+label{
+    color: black;
+}
+
+
+
+
+
+
+
